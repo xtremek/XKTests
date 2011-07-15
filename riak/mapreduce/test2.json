@@ -1,0 +1,5 @@
+{"inputs":"goog",
+ "query":[{"map":{"language":"javascript",
+                  "source":"function(value, keydata, arg) { var data = Riak.mapValuesJson(value)[0]; if (data.High && data.High > 600.00) return[value.key]; else return[]; }",
+                  "keep":true}}]
+}

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xtremek/Programming/XtremeK/XKTests/XKTimerTest/includes.h
+
+/home/xtremek/Programming/XtremeK/XKTests/XKTimerTest/main.c
+stdio.h
+-
+stdlib.h
+-
+xktimer.h
+/home/xtremek/Programming/XtremeK/XKTests/XKTimerTest/xktimer.h
+
+/home/xtremek/Programming/XtremeK/XKTests/XKTimerTest/xktimer.c
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+stdbool.h
+-
+string.h
+-
+time.h
+-
+includes.h
+/home/xtremek/Programming/XtremeK/XKTests/XKTimerTest/includes.h
+xktimer.h
+/home/xtremek/Programming/XtremeK/XKTests/XKTimerTest/xktimer.h
+
+/home/xtremek/Programming/XtremeK/XKTests/XKTimerTest/xktimer.h
+time.h
+-
+stdint.h
+-
+stdbool.h
+-
+

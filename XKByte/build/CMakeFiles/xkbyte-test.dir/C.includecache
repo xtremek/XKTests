@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xtremek/Programming/XtremeK/XKTests/XKByte/byte.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+includes.h
+/home/xtremek/Programming/XtremeK/XKTests/XKByte/includes.h
+machine/endian.h
+-
+endian.h
+-
+byte.h
+/home/xtremek/Programming/XtremeK/XKTests/XKByte/byte.h
+
+/home/xtremek/Programming/XtremeK/XKTests/XKByte/byte.h
+stdint.h
+-
+includes.h
+/home/xtremek/Programming/XtremeK/XKTests/XKByte/includes.h
+machine/endian.h
+-
+endian.h
+-
+stdbool.h
+-
+
+/home/xtremek/Programming/XtremeK/XKTests/XKByte/includes.h
+

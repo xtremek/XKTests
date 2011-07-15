@@ -1,0 +1,26 @@
+# Logfile created on 2011-04-26 17:43:36 -0400 by logger.rb/25413
+D, [2011-04-26T17:43:36.725161 #437] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:44:55.989609 #465] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:45:10.412089 #496] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:45:10.591661 #496] DEBUG -- : REQUESTING PAGE: GET /search with [{"hl"=>"en"}, {"source"=>"hp"}, {"ie"=>"ISO-8859-1"}, {"q"=>"JS.Class"}, {"btnG"=>"Google Search"}] and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2011-04-26T17:46:36.633383 #523] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:46:36.795656 #523] DEBUG -- : REQUESTING PAGE: GET /search with [{"hl"=>"en"}, {"source"=>"hp"}, {"ie"=>"ISO-8859-1"}, {"q"=>"JS.Class"}, {"btnG"=>"Google Search"}] and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2011-04-26T17:46:49.368977 #535] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:46:49.545098 #535] DEBUG -- : REQUESTING PAGE: GET /search with [{"hl"=>"en"}, {"source"=>"hp"}, {"ie"=>"ISO-8859-1"}, {"q"=>"JS.Class"}, {"btnG"=>"Google Search"}] and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2011-04-26T17:48:21.706992 #595] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:48:21.872171 #595] DEBUG -- : REQUESTING PAGE: GET /search with [{"hl"=>"en"}, {"source"=>"hp"}, {"ie"=>"ISO-8859-1"}, {"q"=>"JS.Class"}, {"btnG"=>"Google Search"}] and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2011-04-26T17:51:12.761463 #650] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:51:12.949124 #650] DEBUG -- : REQUESTING PAGE: GET /search with [{"hl"=>"en"}, {"source"=>"hp"}, {"ie"=>"ISO-8859-1"}, {"q"=>"JS.Class"}, {"btnG"=>"Google Search"}] and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2011-04-26T17:52:01.463161 #683] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:52:01.623753 #683] DEBUG -- : REQUESTING PAGE: GET /search with [{"hl"=>"en"}, {"source"=>"hp"}, {"ie"=>"ISO-8859-1"}, {"q"=>"JS.Class"}, {"btnG"=>"Google Search"}] and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2011-04-26T17:53:03.076935 #706] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:53:03.238700 #706] DEBUG -- : REQUESTING PAGE: GET /search with [{"hl"=>"en"}, {"source"=>"hp"}, {"ie"=>"ISO-8859-1"}, {"q"=>"JS.Class"}, {"btnG"=>"Google Search"}] and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2011-04-26T17:53:56.569085 #738] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:53:56.789590 #738] DEBUG -- : REQUESTING PAGE: GET /search with [{"hl"=>"en"}, {"source"=>"hp"}, {"ie"=>"ISO-8859-1"}, {"q"=>"JS.Class"}, {"btnG"=>"Google Search"}] and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2011-04-26T17:56:13.383182 #801] DEBUG -- : REQUESTING PAGE: GET http://www.google.com/ with {} and HTTP headers {}
+D, [2011-04-26T17:56:13.595448 #801] DEBUG -- : REQUESTING PAGE: GET /search with [{"hl"=>"en"}, {"source"=>"hp"}, {"ie"=>"ISO-8859-1"}, {"q"=>"JS.Class"}, {"btnG"=>"Google Search"}] and HTTP headers {"HTTP_REFERER"=>"http://www.google.com/"}
+D, [2011-04-26T18:06:07.207725 #1057] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2011-04-26T18:19:35.770622 #1762] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2011-04-26T18:20:42.261489 #1784] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2011-04-26T18:24:38.127295 #1904] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2011-04-26T18:29:07.925407 #2119] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}

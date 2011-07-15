@@ -1,0 +1,223 @@
+The target system is: Linux - 1 - 
+The host system is: Linux - 2.6.34.7-0.7-desktop - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+CMakeCXXCompilerId.cpp:76: warning: deprecated conversion from string constant to ‘char*’
+CMakeCXXCompilerId.cpp:189: warning: deprecated conversion from string constant to ‘char*’
+CMakeCXXCompilerId.cpp:190: warning: deprecated conversion from string constant to ‘char*’
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-gcc        CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+gmake[1]: Leaving directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+Target: arm-unknown-linux-uclibcgnueabi
+Configured with: /home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gcc-4.3.5/configure --prefix=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-unknown-linux-uclibcgnueabi --enable-languages=c --with-sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --with-build-time-tools=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --disable-shared --with-gmp=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gmp --with-mpfr=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/mpfr --enable-threads --disable-decimal-float --with-float=soft --with-abi=aapcs-linux --with-arch=armv5te --with-tune=arm926ej-s --with-pkgversion='Buildroot 2010.08' --with-bugurl=http://bugs.buildroot.net/ : (reconfigured) /home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gcc-4.3.5/configure --prefix=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-unknown-linux-uclibcgnueabi --enable-languages=c,c++ --with-sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --with-build-time-tools=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --disable-shared --with-gmp=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gmp --with-mpfr=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/mpfr --enable-threads --disable-decimal-float --with-float=soft --with-abi=aapcs-linux --with-arch=armv5te --with-tune=arm926ej-s --with-pkgversion='Buildroot 2010.08' --with-bugurl=http://bugs.buildroot.net/
+Thread model: posix
+gcc version 4.3.5 (Buildroot 2010.08) 
+COMPILER_PATH=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-march=armv5te' '-mtune=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux'
+ /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/collect2 --sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crt1.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crti.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtbegin.o -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5 -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc -lc -lgcc /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtend.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crtn.o
+gmake[1]: Leaving directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: arm-unknown-linux-uclibcgnueabi]
+  ignore line: [Configured with: /home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gcc-4.3.5/configure --prefix=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-unknown-linux-uclibcgnueabi --enable-languages=c --with-sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --with-build-time-tools=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --disable-shared --with-gmp=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gmp --with-mpfr=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/mpfr --enable-threads --disable-decimal-float --with-float=soft --with-abi=aapcs-linux --with-arch=armv5te --with-tune=arm926ej-s --with-pkgversion='Buildroot 2010.08' --with-bugurl=http://bugs.buildroot.net/ : (reconfigured) /home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gcc-4.3.5/configure --prefix=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-unknown-linux-uclibcgnueabi --enable-languages=c,c++ --with-sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --with-build-time-tools=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --disable-shared --with-gmp=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gmp --with-mpfr=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/mpfr --enable-threads --disable-decimal-float --with-float=soft --with-abi=aapcs-linux --with-arch=armv5te --with-tune=arm926ej-s --with-pkgversion='Buildroot 2010.08' --with-bugurl=http://bugs.buildroot.net/]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.3.5 (Buildroot 2010.08) ]
+  ignore line: [COMPILER_PATH=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-march=armv5te' '-mtune=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux']
+  link line: [ /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/collect2 --sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crt1.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crti.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtbegin.o -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5 -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc -lc -lgcc /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtend.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crtn.o]
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/collect2] ==> ignore
+    arg [--sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crt1.o] ==> ignore
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crti.o] ==> ignore
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtbegin.o] ==> ignore
+    arg [-L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5] ==> dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5]
+    arg [-L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib] ==> dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib]
+    arg [-L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib] ==> dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib]
+    arg [-L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib] ==> dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtend.o] ==> ignore
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5] ==> [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5]
+  collapse dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib] ==> [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/lib]
+  collapse dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib] ==> [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib]
+  collapse dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib] ==> [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5;/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/lib;/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib;/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-c++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-c++         CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic 
+gmake[1]: Leaving directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+Target: arm-unknown-linux-uclibcgnueabi
+Configured with: /home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gcc-4.3.5/configure --prefix=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-unknown-linux-uclibcgnueabi --enable-languages=c --with-sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --with-build-time-tools=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --disable-shared --with-gmp=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gmp --with-mpfr=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/mpfr --enable-threads --disable-decimal-float --with-float=soft --with-abi=aapcs-linux --with-arch=armv5te --with-tune=arm926ej-s --with-pkgversion='Buildroot 2010.08' --with-bugurl=http://bugs.buildroot.net/ : (reconfigured) /home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gcc-4.3.5/configure --prefix=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-unknown-linux-uclibcgnueabi --enable-languages=c,c++ --with-sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --with-build-time-tools=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --disable-shared --with-gmp=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gmp --with-mpfr=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/mpfr --enable-threads --disable-decimal-float --with-float=soft --with-abi=aapcs-linux --with-arch=armv5te --with-tune=arm926ej-s --with-pkgversion='Buildroot 2010.08' --with-bugurl=http://bugs.buildroot.net/
+Thread model: posix
+gcc version 4.3.5 (Buildroot 2010.08) 
+COMPILER_PATH=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-march=armv5te' '-mtune=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux'
+ /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/collect2 --sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crt1.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crti.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtbegin.o -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5 -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -lgcc /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtend.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crtn.o
+gmake[1]: Leaving directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/xtremek/Programming/XtremeK/XKTests/XKByte/build-arm/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: arm-unknown-linux-uclibcgnueabi]
+  ignore line: [Configured with: /home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gcc-4.3.5/configure --prefix=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-unknown-linux-uclibcgnueabi --enable-languages=c --with-sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --with-build-time-tools=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --disable-shared --with-gmp=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gmp --with-mpfr=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/mpfr --enable-threads --disable-decimal-float --with-float=soft --with-abi=aapcs-linux --with-arch=armv5te --with-tune=arm926ej-s --with-pkgversion='Buildroot 2010.08' --with-bugurl=http://bugs.buildroot.net/ : (reconfigured) /home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gcc-4.3.5/configure --prefix=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-unknown-linux-uclibcgnueabi --enable-languages=c,c++ --with-sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --with-build-time-tools=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --disable-shared --with-gmp=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/gmp --with-mpfr=/home/xtremek/src/PAS9499/build/buildroot-2010.08/toolchain/mpfr --enable-threads --disable-decimal-float --with-float=soft --with-abi=aapcs-linux --with-arch=armv5te --with-tune=arm926ej-s --with-pkgversion='Buildroot 2010.08' --with-bugurl=http://bugs.buildroot.net/]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.3.5 (Buildroot 2010.08) ]
+  ignore line: [COMPILER_PATH=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib/:/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-march=armv5te' '-mtune=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux']
+  link line: [ /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/collect2 --sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crt1.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crti.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtbegin.o -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5 -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib -L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -lgcc /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtend.o /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crtn.o]
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/libexec/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/collect2] ==> ignore
+    arg [--sysroot=/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crt1.o] ==> ignore
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crti.o] ==> ignore
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtbegin.o] ==> ignore
+    arg [-L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5] ==> dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5]
+    arg [-L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib] ==> dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib]
+    arg [-L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib] ==> dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib]
+    arg [-L/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib] ==> dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/crtend.o] ==> ignore
+    arg [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5] ==> [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5]
+  collapse dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5/../../../../arm-unknown-linux-uclibcgnueabi/lib] ==> [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/lib]
+  collapse dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib] ==> [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib]
+  collapse dir [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib] ==> [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.3.5;/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/arm-unknown-linux-uclibcgnueabi/lib;/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/lib;/home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/lib]
+
+

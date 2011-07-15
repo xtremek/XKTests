@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="XKByteTest" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/xtremek/Programming/XtremeK/XKTests/XKByte/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/xtremek/Programming/XtremeK/XKTests/XKByte/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="xkbyte-test">
+         <Option output="/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/xkbyte-test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/xtremek/Programming/XtremeK/XKTests/XKByte/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; xkbyte-test" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="xkbyte-test/fast">
+         <Option output="/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/xkbyte-test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/xtremek/Programming/XtremeK/XKTests/XKByte/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; xkbyte-test/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/xtremek/Programming/XtremeK/XKTests/XKByte/build/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/xtremek/Programming/XtremeK/XKTests/XKByte/byte.c">
+      </Unit>
+      <Unit filename="/home/xtremek/Programming/XtremeK/XKTests/XKByte/main.c">
+      </Unit>
+      <Unit filename="/home/xtremek/Programming/XtremeK/XKTests/XKByte/byte.h">
+      </Unit>
+      <Unit filename="/home/xtremek/Programming/XtremeK/XKTests/XKByte/includes.h">
+      </Unit>
+      <Unit filename="/home/xtremek/Programming/XtremeK/XKTests/XKByte/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

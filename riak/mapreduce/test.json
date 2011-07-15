@@ -1,0 +1,6 @@
+{"inputs":"accounts",
+  "query":[{"map":{"language":"javascript", 
+                   "source":"function(v) { return [v]; }",
+                   "keep":true}}
+          ]
+}

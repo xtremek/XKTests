@@ -1,0 +1,23 @@
+ 
+# this one is important
+SET(CMAKE_SYSTEM_NAME Linux)
+#this one not so much
+SET(CMAKE_SYSTEM_VERSION 1)
+
+# specify the cross compiler
+SET(CMAKE_C_COMPILER /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/arm-linux-gcc)
+
+# where is the target environment 
+SET(CMAKE_FIND_ROOT_PATH /home/xtremek/src/PAS9499/build/buildroot-2010.08/staging/usr/bin/)
+
+# specify the cross compiler
+#SET(CMAKE_C_COMPILER /home/xtremek/src/PAS9499/buildroot-v23434/build_arm/staging_dir/usr/bin/arm-linux-gcc)
+
+# where is the target environment 
+#SET(CMAKE_FIND_ROOT_PATH /home/xtremek/src/PAS9499/buildroot-v23434/build_arm/staging_dir/usr/bin/)
+
+# search for programs in the build host directories
+#SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+# for libraries and headers in the target directories
+#SET(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+#SET(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)

@@ -1,0 +1,1 @@
+/usr/bin/gcc     CMakeFiles/xktimer-plus-test.dir/main+.c.o CMakeFiles/xktimer-plus-test.dir/xktimer.c.o  -o xktimer-plus-test -rdynamic 

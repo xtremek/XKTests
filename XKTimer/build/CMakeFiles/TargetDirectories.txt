@@ -1,0 +1,2 @@
+/home/xtremek/Programming/XtremeK/XKTests/XKTimerTest/build/CMakeFiles/xktimer-plus-test.dir
+/home/xtremek/Programming/XtremeK/XKTests/XKTimerTest/build/CMakeFiles/xktimer-test.dir
